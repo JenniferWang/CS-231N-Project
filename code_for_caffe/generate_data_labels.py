@@ -1,14 +1,13 @@
-# In order to use caffe, we need to convert all the data into lmdb/leveldb
+ In order to use caffe, we need to convert all the data into lmdb/leveldb
 # format. This file generate the train.txt and val.txt for convert_data.sh
 import os
 import random
+import sys
 
 TRAIN_sz = 4;
 VAL_sz = 1;
-ROOT_DIR = "./dataset/English/Img/GoodImg/Bmp/"
-NEW_DIR = "./dataset/English/Img/GoodImg/Bmp/"
-TRAIN_LABEL = "train_good.txt"                      #May need to change
-VAL_LABEL = "val_good.txt"                          #May need to change
+argv = sys.argv
+ROOT_DIR, NEW_DIR, TRAIN_LABEL, VAL_LABEL = argv[1], argv[2], argv[3], argv[4]
 
 counter = -1
 train_f = open(NEW_DIR + TRAIN_LABEL, 'w')

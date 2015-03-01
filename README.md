@@ -24,7 +24,7 @@
  * Prepare dataset
  	* Caffe needs data in lmdb/leveldb format. In order to convert the data set
  		first run run```./code_ for_caffe/create_img_good.sh```. 
- 	* There are three different kind of data. In order to gain different combination of training data and validation data, you need to change ```create_data.sh```.
+ 	* There are three different kind of data. In order to gain different combination of training data and validation data, you need to change ```create_img_good.sh```.
     
  * 
  

@@ -1,4 +1,4 @@
- In order to use caffe, we need to convert all the data into lmdb/leveldb
+# In order to use caffe, we need to convert all the data into lmdb/leveldb
 # format. This file generate the train.txt and val.txt for convert_data.sh
 import os
 import random

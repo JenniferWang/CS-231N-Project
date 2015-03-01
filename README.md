@@ -23,8 +23,8 @@
 ##Working on Caffe:
  * Prepare dataset
  	* Caffe needs data in lmdb/leveldb format. In order to convert the data set
- 		first run ```./code_for_caffe/generate_data_labels.py```, then run```./code_ for_caffe/create_data.sh```. 
- 	* There are three different kind of data. In order to gain different combination of training data and validation data, you need to change the ```generate_data_labels.py``` and ```create_data.sh```.
+ 		first run run```./code_ for_caffe/create_img_good.sh```. 
+ 	* There are three different kind of data. In order to gain different combination of training data and validation data, you need to change ```create_img_good.sh```.
     
  * 
  

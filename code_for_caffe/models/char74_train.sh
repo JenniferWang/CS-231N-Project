@@ -1,0 +1,1 @@
+~/caffe/build/tools/caffe train -solver solver.prototxt -weights ../caffe/examples/mnist/lenet_iter_10000.caffemodel -gpu 0

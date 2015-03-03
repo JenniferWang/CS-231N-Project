@@ -14,8 +14,7 @@ pynb*
 *.tex
 !lib.a
 /TODO
-code_for_caffe/dataset
 data
+code_for_caffe/dataset
 vlfeat-0.9.20
-# 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 doc/*.txt

@@ -28,6 +28,6 @@
  	* Caffe needs data in lmdb/leveldb format. In order to convert the data, 
  		run```create_img_good.sh``` and ```create_img_fnt.sh``` respectively.
  	* We have already trained MNIST on caffe and store the model in ```./models```. The prototxts for the fine tuning model are also stored in this folder.
- 	* Run ```./models/char74_train_sh``` to train and test the new model.
+ 	* Run ```./models/char74_train.sh``` to train and test the new model.
     
 

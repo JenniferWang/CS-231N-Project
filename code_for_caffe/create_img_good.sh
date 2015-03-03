@@ -7,7 +7,7 @@ python ./generate_data_labels.py $ROOT_DIR $Label_DIR train_good.txt val_good.tx
 
 NEW_DIR=./dataset
 DATA=./dataset
-TOOLS=../caffe/build/tools
+TOOLS=~/caffe/build/tools
 
 TRAIN_DATA_ROOT=../data/English/Img/GoodImg/Bmp/
 VAL_DATA_ROOT=../data/English/Img/GoodImg/Bmp/

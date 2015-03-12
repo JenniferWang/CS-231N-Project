@@ -16,8 +16,8 @@ VAL_DATA_ROOT=../data/English/Img/GoodImg/Bmp/
 # already been resized using another tool.
 RESIZE=true
 if $RESIZE; then
-  RESIZE_HEIGHT=28
-  RESIZE_WIDTH=28
+  RESIZE_HEIGHT=64
+  RESIZE_WIDTH=64
 else
   RESIZE_HEIGHT=0
   RESIZE_WIDTH=0

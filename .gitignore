@@ -18,3 +18,8 @@ data
 code_for_caffe/dataset
 vlfeat-0.9.20
 doc/*.txt
+*.caffemodel
+*.solverstate
+char74*
+.swp
+

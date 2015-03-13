@@ -40,7 +40,7 @@ fi
 echo "Creating train lmdb..."
 
 GLOG_logtostderr=1 $TOOLS/convert_imageset \
-    --gray=true \
+    --gray=false \
     --resize_height=$RESIZE_HEIGHT \
     --resize_width=$RESIZE_WIDTH \
     --shuffle \
@@ -51,7 +51,7 @@ GLOG_logtostderr=1 $TOOLS/convert_imageset \
 echo "Creating val lmdb..."
 
 GLOG_logtostderr=1 $TOOLS/convert_imageset \
-    --gray=true\
+    --gray=false\
     --resize_height=$RESIZE_HEIGHT \
     --resize_width=$RESIZE_WIDTH \
     --shuffle \

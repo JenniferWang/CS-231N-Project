@@ -1,11 +1,11 @@
 name: "Char74 fm Scratch bad included"
+
 layers {
-  name: "char74"
+  name: "char74_bad"
   type: DATA
   top: "data"
   top: "label"
   data_param {
-    source: "../dataset/train_good_lmdb"
     source: "../dataset/train_bad_lmdb"
     backend: LMDB
     batch_size: 64
@@ -16,13 +16,13 @@ layers {
   include: { phase: TRAIN }
 }
 
+
 layers {
   name: "char74"
   type: DATA
   top: "data"
   top: "label"
   data_param {
-    source: "../dataset/val_good_lmdb"
     source: "../dataset/val_bad_lmdb"
     backend: LMDB
     batch_size: 100

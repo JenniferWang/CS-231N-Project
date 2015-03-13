@@ -2,15 +2,15 @@
 # Create the  lmdb inputs for image/bad data
 # N.B. set the path to the imagenet train + val data dirs
 Label_DIR=./dataset/
-ROOT_DIR=../data/English/Img/BadImg/Bmp/
+ROOT_DIR=../data/English/Img/BadImag/Bmp/
 python ./generate_data_labels.py $ROOT_DIR $Label_DIR train_bad.txt val_bad.txt
 
 NEW_DIR=./dataset
 DATA=./dataset
 TOOLS=~/caffe/build/tools
 
-TRAIN_DATA_ROOT=../data/English/Img/BadImg/Bmp/
-VAL_DATA_ROOT=../data/English/Img/BadImg/Bmp/
+TRAIN_DATA_ROOT=../data/English/Img/BadImag/Bmp/
+VAL_DATA_ROOT=../data/English/Img/BadImag/Bmp/
 
 # Set RESIZE=true to resize the images to 256x256. Leave as false if images have
 # already been resized using another tool.
